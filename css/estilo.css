@@ -1,0 +1,124 @@
+.caja3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.caja1
+{
+    position: relative;
+    width: 150px;
+    height: 400px;
+}
+
+.caja2, .caja3, .caja4 {
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: absolute;
+}
+
+.caja2{
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 25px;
+}
+
+.caja3 {
+    width: 120px;
+    height: 120px;
+    top: 110px;
+    left: 15px;
+}
+
+.caja4 {
+    width: 150px;
+    height: 150px;
+    top: 240px;
+}
+
+.caja6 {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 120px;
+    height: 20px;
+    background-color: blue;
+}
+
+
+.caja7{
+    
+}
+
+
+.caja9 {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    width: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.caja9::before, .caja9::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.caja10 {
+    position: absolute;
+    top: 50px;
+    left: 45px;
+    width: 20px;
+    height: 10px;
+    background-color: orange;
+}
+
+.caja5 {
+    position: absolute;
+    top: 150px;
+    left: 65px;
+    width: 20px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.cajad{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+
+}
+
+.cajab{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+
+}
+.cajac{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+
+}
+
+.caja11 {
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 12px;
+}
